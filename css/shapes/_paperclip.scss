@@ -1,0 +1,34 @@
+.paperclip {
+    font-size: 150px;
+    height: .15em;
+    width: .7em;
+    border: .04em solid #fff;
+    border-right: none;
+    border-radius: .15em 0 0 .15em;
+    position: absolute;
+    transform: rotate(45deg);
+
+    &::before {
+        position: absolute;
+        content: '';
+        height: .28em;
+        width: .75em;
+        border: .04em solid #fff;
+        border-left: none;
+        border-radius: 0 .28em .28em 0;
+        bottom: -.04em;
+        left: .08em;
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        height: .4em;
+        width: .82em;
+        border: .04em solid #fff;
+        border-right: none;
+        border-radius: .4em 0 0 .4em;
+        top: -0.17em;
+        right: 0em;
+    }
+}
