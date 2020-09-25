@@ -12,6 +12,17 @@ body {
     align-items: center;
 }
 
+.home {
+    margin: 20px;
+}
+
+.ul {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 @import './shapes/heart';
 @import './shapes/camera';
 @import './shapes/calendar';
@@ -20,3 +31,8 @@ body {
 @import './shapes/delete';
 @import './shapes/loudspeaker';
 @import './shapes/lamp';
+
+
+// CORE 
+
+@import './core/typography'

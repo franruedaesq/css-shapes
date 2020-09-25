@@ -1,31 +1,32 @@
 .camera {
+    font-size: 350px;
     background-color: #fff;
-    height: 140px;
-    width: 240px;
-    border-radius: 10px;
+    height: 0.560em;
+    width: 0.960em;
+    border-radius: 0.040em;
     position: relative;
 
     &::before {
         position: absolute;
         content: '';
         height: 0;
-        width: 80px;
-        border-bottom: 25px solid #fff;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        top: -25px;
-        left: 68px;
+        width: .32em;
+        border-bottom: .1em solid #fff;
+        border-left: 0.040em solid transparent;
+        border-right: 0.040em solid transparent;
+        top: -.1em;
+        left: 0.272em;
     }
 
     &::after {
         position: absolute;
         content: '';
-        height: 85px;
-        width: 85px;
-        border: 10px solid #ffdb4f;
+        height: 0.340em;
+        width: 0.340em;
+        border: 0.040em solid #ffdb4f;
         border-radius: 50%;
-        top: 15px;
-        left: 65px;
-        box-shadow: 100px -45px 0 -45px #ffdb4f;
+        top: 0.060em;
+        left: 0.260em;
+        box-shadow: 0.400em -0.180em 0 -0.180em #ffdb4f;
     }
 }
