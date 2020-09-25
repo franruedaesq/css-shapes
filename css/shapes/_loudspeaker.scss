@@ -1,0 +1,36 @@
+.speaker {
+    font-size: 300px;
+    height: 0.8em;
+    width: 0.55em;
+    border: 0.05em solid #fff;
+    border-radius: 0.02em;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 0.15em;
+        width: 0.15em;
+        border: 0.05em solid #fff;
+        border-radius: 50%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0.02em;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: 0.55em;
+        width: 0.55em;
+        background-image: radial-gradient(
+            transparent 0.05em, #fff 0.05em,
+            #fff 0.10em, transparent 0.10em,
+            transparent 0.15em, #fff 0.15em,
+            #fff 0.20em, transparent 0.20em
+            
+        );
+        top: 0.28em;
+    }
+}
